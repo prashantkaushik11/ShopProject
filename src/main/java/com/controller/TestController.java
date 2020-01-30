@@ -9,5 +9,6 @@ public class TestController {
     @RequestMapping(value="/home")
     public String test(){
         return "home";
+
     }
 }
